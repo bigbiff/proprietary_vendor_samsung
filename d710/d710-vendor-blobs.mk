@@ -61,7 +61,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/d710/proprietary/lib/hw/audio.primary.exynos4.so:system/lib/hw/audio.primary.exynos4.so \
 	vendor/samsung/d710/proprietary/lib/libasound.so:system/lib/libasound.so \
 	vendor/samsung/d710/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
-	vendor/samsung/d710/proprietary/lib/libImmVibeJ.so:system/lib/libImmVibeJ.so \
 	vendor/samsung/d710/proprietary/lib/liblvvefs.so:system/lib/liblvvefs.so \
 	vendor/samsung/d710/proprietary/lib/libmediayamaha_jni.so:system/lib/libmediayamaha_jni.so \
 	vendor/samsung/d710/proprietary/lib/libmediayamahaservice.so:system/lib/libmediayamahaservice.so \
@@ -108,5 +107,4 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/d710/proprietary/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
 	vendor/samsung/d710/proprietary/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf \
 	vendor/samsung/d710/proprietary/firmware/wimaxfw.bin:system/vendor/firmware/wimaxfw.bin \
-	vendor/samsung/d710/proprietary/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
 	vendor/samsung/d710/proprietary/firmware/wimaxloader.bin:system/vendor/firmware/wimaxloader.bin
