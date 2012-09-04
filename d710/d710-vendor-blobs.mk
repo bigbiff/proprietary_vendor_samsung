@@ -59,6 +59,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/d710/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
 	vendor/samsung/d710/proprietary/lib/hw/audio_policy.exynos4.so:system/lib/hw/audio_policy.exynos4.so \
 	vendor/samsung/d710/proprietary/lib/hw/audio.primary.exynos4.so:system/lib/hw/audio.primary.exynos4.so \
+	vendor/samsung/d710/proprietary/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so \
+	vendor/samsung/d710/proprietary/lib/libakm.so:system/lib/libakm.so \
 	vendor/samsung/d710/proprietary/lib/libasound.so:system/lib/libasound.so \
 	vendor/samsung/d710/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
 	vendor/samsung/d710/proprietary/lib/liblvvefs.so:system/lib/liblvvefs.so \
