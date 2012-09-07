@@ -24,11 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libhdmi.so:obj/lib/libhdmi.so \
     vendor/samsung/galaxys2-common/proprietary/hwcomposer/lib/libhdmiclient.so:obj/lib/libhdmiclient.so
     
-#    vendor/samsung/d710/proprietary/app/SDM.apk:system/app/SDM.apk \
-#    vendor/samsung/d710/proprietary/app/SprintMenu.apk:system/app/SprintMenu.apk \
-#    vendor/samsung/d710/proprietary/app/SyncMLSvc.apk:system/app/SyncMLSvc.apk \
-#    vendor/samsung/d710/proprietary/app/SystemUpdateUI.apk:system/app/SystemUpdateUI.apk \
-#    vendor/samsung/d710/proprietary/lib/libakm.so:system/lib/libakm.so \
 PRODUCT_COPY_FILES += \
     vendor/samsung/d710/proprietary/app/WiMAXHiddenMenu.apk:system/app/WiMAXHiddenMenu.apk \
     vendor/samsung/d710/proprietary/app/WiMAXSettings.apk:system/app/WiMAXSettings.apk \
@@ -53,7 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/d710/proprietary/etc/audio/Tx_ControlParams_WIRED_HEADSET_WIDEBAND.txt:system/etc/audio/Tx_ControlParams_WIRED_HEADSET_WIDEBAND.txt \
     vendor/samsung/d710/proprietary/etc/firmware/RS_M5LS_TB.bin:system/etc/firmware/RS_M5LS_TB.bin \
     vendor/samsung/d710/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
-    vendor/samsung/d710/proprietary/etc/permissions/com.samsung.device.xml:system/etc/permissions/com.samsung.device.xml \
     vendor/samsung/d710/proprietary/etc/permissions/com.yamaha.android.media.xml:system/etc/permissions/com.yamaha.android.media.xml \
     vendor/samsung/d710/proprietary/etc/permissions/wimax_library.xml:system/etc/permissions/wimax_library.xml \
     vendor/samsung/d710/proprietary/etc/wimax_boot.bin:system/etc/wimax_boot.bin \
@@ -74,10 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/wifi/etc/wifi/nvram_net.txt_SG:system/etc/wifi/nvram_net.txt_SG \
     vendor/samsung/galaxys2-common/proprietary/wifi/etc/wifi/nvram_net.txt_TN:system/etc/wifi/nvram_net.txt_TN \
     vendor/samsung/d710/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
-    vendor/samsung/d710/proprietary/framework/com.samsung.device.jar:system/framework/com.samsung.device.jar \
     vendor/samsung/d710/proprietary/framework/com.yamaha.android.media.jar:system/framework/com.yamaha.android.media.jar \
-    vendor/samsung/d710/proprietary/framework/sec_feature.jar:system/framework/sec_feature.jar \
-    vendor/samsung/d710/proprietary/framework/sechardware.jar:system/framework/sechardware.jar \
     vendor/samsung/d710/proprietary/framework/wimax_service.jar:system/framework/wimax_service.jar \
     vendor/samsung/d710/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/d710/proprietary/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
@@ -85,6 +76,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/d710/proprietary/lib/hw/audio_policy.exynos4.so:system/lib/hw/audio_policy.exynos4.so \
     vendor/samsung/d710/proprietary/lib/hw/audio.primary.exynos4.so:system/lib/hw/audio.primary.exynos4.so \
     vendor/samsung/d710/proprietary/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so \
+    vendor/samsung/d710/proprietary/lib/libakm.so:system/lib/libakm.so \
     vendor/samsung/d710/proprietary/lib/libasound.so:system/lib/libasound.so \
     vendor/samsung/d710/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/samsung/d710/proprietary/lib/liblvvefs.so:system/lib/liblvvefs.so \
@@ -105,8 +97,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/d710/proprietary/lib/libSECmWiMAXcAPI.so:system/lib/libSECmWiMAXcAPI.so \
     vendor/samsung/d710/proprietary/lib/libsec-ril40.so:system/lib/libsec-ril40.so \
     vendor/samsung/d710/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-    vendor/samsung/d710/proprietary/lib/libsyncml_core.so:system/lib/libsyncml_core.so \
-    vendor/samsung/d710/proprietary/lib/libsyncml_port.so:system/lib/libsyncml_port.so \
     vendor/samsung/d710/proprietary/lib/libWiMAXNative.so:system/lib/libWiMAXNative.so \
     vendor/samsung/d710/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
     vendor/samsung/d710/proprietary/lib/libwvm.so:system/lib/libwvm.so \
@@ -159,3 +149,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     vendor/samsung/d710/proprietary/firmware/wimaxfw.bin:system/vendor/firmware/wimaxfw.bin \
     vendor/samsung/d710/proprietary/firmware/wimaxloader.bin:system/vendor/firmware/wimaxloader.bin
+
+# Samsung Update Props    
+#PRODUCT_COPY_FILES += \
+#    vendor/samsung/d710/proprietary/app/SDM.apk:system/app/SDM.apk \
+#    vendor/samsung/d710/proprietary/app/SprintMenu.apk:system/app/SprintMenu.apk \
+#    vendor/samsung/d710/proprietary/app/SyncMLSvc.apk:system/app/SyncMLSvc.apk \
+#    vendor/samsung/d710/proprietary/app/SystemUpdateUI.apk:system/app/SystemUpdateUI.apk \
+#    vendor/samsung/d710/proprietary/etc/permissions/com.samsung.device.xml:system/etc/permissions/com.samsung.device.xml \
+#    vendor/samsung/d710/proprietary/framework/com.samsung.device.jar:system/framework/com.samsung.device.jar \    
+#    vendor/samsung/d710/proprietary/framework/sec_feature.jar:system/framework/sec_feature.jar \
+#    vendor/samsung/d710/proprietary/framework/sechardware.jar:system/framework/sechardware.jar \    
+#    vendor/samsung/d710/proprietary/lib/libsyncml_core.so:system/lib/libsyncml_core.so \
+#    vendor/samsung/d710/proprietary/lib/libsyncml_port.so:system/lib/libsyncml_port.so 
