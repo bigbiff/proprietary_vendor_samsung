@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/quincyatt/proprietary/lib/libpn544_fw.so:system/lib/libpn544_fw.so \
 	vendor/samsung/quincyatt/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
 	vendor/samsung/quincyatt/proprietary/etc/wifi/nvram_mfg.txt_murata:system/etc/wifi/nvram_mfg.txt_murata \
+	vendor/samsung/quincyatt/proprietary/etc/audio_policy.cfg:system/etc/audio_policy.cfg \
 	vendor/samsung/quincyatt/proprietary/bin/immvibed:system/bin/immvibed \
 	vendor/samsung/quincyatt/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
 	vendor/samsung/quincyatt/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
